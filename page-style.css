@@ -1,4 +1,4 @@
-.image {
+img {
     width: 25vw;
 }
 
@@ -31,4 +31,8 @@
 
 #content-wrap {
     padding-bottom: 2.5rem;
+}
+
+.hidden {
+    display: none
 }
