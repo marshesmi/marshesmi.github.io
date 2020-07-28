@@ -1,0 +1,25 @@
+body {
+    color: blue;
+    background-image: url("MorrisAndCo-MelsetterWallpapers-LemonTree-216672-01.jpg");
+    background-size: 20vw;
+    overflow: hidden;
+}
+
+img {
+    width: 20vw;
+    margin: 1vw;
+}
+
+.splash {
+    position: absolute;
+    cursor: grab;
+}
+
+.splash.grabbing {
+    cursor: grabbing;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
