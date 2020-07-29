@@ -22,6 +22,34 @@
 
 })();
 
+(function() {
+
+    var $image = $('.image3');
+    var i = 0;
+
+    $('.image3').on('click', function() {
+        i = (i + 1) % $image.length;
+        $image.hide().eq(i).show();
+    });
+
+})();
+
+(function() {
+
+    var $image = $('.image4');
+    var i = 0;
+
+    $('.image4').on('click', function() {
+        i = (i + 1) % $image.length;
+        $image.hide().eq(i).show();
+    });
+
+})();
+
+
+
+
+
 
 $('.splash').each(function(index) {
     $(this).css({
