@@ -2,6 +2,10 @@ img {
     width: 24vw;
 }
 
+#image-big {
+    width: 40vw;
+}
+
 #testbox {
     height: 25vw;
     background-color: rosybrown;
