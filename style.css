@@ -2,6 +2,7 @@ body {
     color: blue;
     background-size: 20vw;
     overflow: hidden;
+    font-style: italic;
 }
 
 img {

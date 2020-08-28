@@ -11,6 +11,12 @@ img {
     background-color: rosybrown;
 }
 
+.directions {
+    color: blue;
+    font-style: italic;
+    margin-top: 20px;
+}
+
 .description {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -25,7 +31,7 @@ img {
 }
 
 .links {
-    color: royalblue;
+    color: blueviolet;
 }
 
 #page-container {
