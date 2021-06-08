@@ -47,14 +47,24 @@
 })();
 
 
+window.onload = function () {
+    const splash = document.querySelectorAll(".splash")
+    const container = document.querySelector(".container")
+    splash.forEach(image => {
+        image.style.left = Math.random() * (container.offsetWidth - image.offsetWidth) + "px";
+        image.style.top = Math.random() * (container.offsetHeight - image.offsetHeight) + "px";
 
-$(document).on("load",
-    $('.splash').each(function (index) {
-        $(this).css({
-            left: Math.random() * ($('.container').width() - $(this).width()),
-            top: Math.random() * ($('.container').height() - $(this).height())
-        });
-    }));
+    });
+};
+
+
+// $(document).on("load",
+//     $('.splash').each(function (index) {
+//         $(this).css({
+//             left: Math.random() * ($('.container').width() - $(this).width()),
+//             top: Math.random() * ($('.container').height() - $(this).height())
+//         });
+//     }));
 
 // $(document).ready(function() {
 //     $('.splash').each(function(index) {
