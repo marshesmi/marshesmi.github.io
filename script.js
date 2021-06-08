@@ -47,15 +47,17 @@
 })();
 
 
-window.onload = function () {
-    const splash = document.querySelectorAll(".splash")
-    const container = document.querySelector(".container")
-    splash.forEach(image => {
+
+const splash = document.querySelectorAll(".splash")
+const container = document.querySelector(".container")
+splash.forEach(image => {
+    image.onload = function () {
         image.style.left = Math.random() * (container.offsetWidth - image.offsetWidth) + "px";
         image.style.top = Math.random() * (container.offsetHeight - image.offsetHeight) + "px";
+    }
 
-    });
-};
+
+});
 
 
 // $(document).on("load",
