@@ -1,15 +1,28 @@
 img {
+    width: 32vw;
+}
+
+.image-small {
     width: 24vw;
 }
 
-#image-big {
+.image-big {
     width: 40vw;
 }
 
+.image-half {
+    width:48vw;
+}
 
+.title {
+    margin-bottom: 20px;
+}
 .directions {
-    color: blue;
+    font-size: larger;
+    color: rgb(17, 0, 255);
     font-style: italic;
+    
+
     margin-top: 20px;
 }
 
