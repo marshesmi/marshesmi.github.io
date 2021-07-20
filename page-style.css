@@ -14,7 +14,13 @@ img {
     width:48vw;
 }
 
+.image-full {
+width: 90vw;
+}
+
 .title {
+    font-size: large;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .directions {
