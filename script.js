@@ -46,6 +46,30 @@
 
 })();
 
+(function () {
+
+    var $image = $('.image5');
+    var i = 0;
+
+    $('.image5').on('click', function () {
+        i = (i + 1) % $image.length;
+        $image.hide().eq(i).show();
+    });
+
+})();
+
+(function () {
+
+    var $image = $('.image6');
+    var i = 0;
+
+    $('.image6').on('click', function () {
+        i = (i + 1) % $image.length;
+        $image.hide().eq(i).show();
+    });
+
+})();
+
 
 
 const splash = document.querySelectorAll(".splash")
