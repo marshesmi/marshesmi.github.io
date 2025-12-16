@@ -40,13 +40,13 @@ object-fit: contain;
 }
 
 .title {
-    font-size: large;
+    font-size: small;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .directions {
-    font-size: larger;
+    font-size: small;
     color: rgb(17, 0, 255);
     font-style: italic;
 
