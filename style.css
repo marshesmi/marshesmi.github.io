@@ -2,11 +2,12 @@ body {
     color: rgb(4, 0, 255);
     background-size: 20vw;
     overflow: hidden;
+    font-size: smaller;
     font-style: italic;
 }
 
 img {
-    width: 20vw;    
+    width: 15vw;    
     margin: 1vw;
 }
 
